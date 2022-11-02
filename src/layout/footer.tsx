@@ -1,13 +1,10 @@
 import React from "react";
-import { github, version } from "../config";
 
 export default () => (
-  <footer>
-    <div className="container">
+  <footer className="footer" style={({padding: '2rem'})}>
+    <div className="content has-text-centered">
       <p>
-        <small>
-          <a href={github.version}>{version}</a>
-        </small>
+        <strong>Country table</strong> by <a href="https://github.com/AZch">Anton Zhuikov</a>
       </p>
     </div>
   </footer>
